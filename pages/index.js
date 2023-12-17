@@ -16,7 +16,7 @@ const HomePage = () => {
     <div>
       <button onClick={openModal}>Open Modal</button>
 
-      <Modal isOpen={isModalOpen} onClose={closeModal}>
+      <Modal isOpen={isModalOpen}>
         <h2>This is a Modal</h2>
         <p>Using React Portals with Next.js</p>
         <button onClick={closeModal}>Close Modal</button>

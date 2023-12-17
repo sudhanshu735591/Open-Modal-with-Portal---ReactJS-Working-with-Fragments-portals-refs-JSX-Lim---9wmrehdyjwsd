@@ -7,7 +7,7 @@ const Modal = ({ children, isOpen, onClose }) => {
 
     //add code here
     return ReactDOM.createPortal(
-      <div className='modal' onClick={onClose}>
+      <div className='modal'>
         <div style={{ backgroundColor: 'white', padding: '2rem', position: 'relative' }} onClick={(e) => e.stopPropagation()} >
           {children}
         </div>
